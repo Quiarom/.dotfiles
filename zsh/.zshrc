@@ -118,7 +118,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias nvim="/home/quiarom/nvim.appimage"
+# alias nvim="/home/quiarom/nvim.appimage"
 alias poetry="/home/quiarom/.local/bin/poetry"
 alias exa="exa --icons"
 export NVM_DIR="$HOME/.nvm"
@@ -130,5 +130,6 @@ export NVM_DIR="$HOME/.nvm"
 eval "$(starship init zsh)"
 eval "$(rbenv init -)"
 
-export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
-export LIBGL_ALWAYS_INDIRECT=1
+# xserver variables to WSL2
+# export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
+# export LIBGL_ALWAYS_INDIRECT=1
